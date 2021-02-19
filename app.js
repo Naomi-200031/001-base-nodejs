@@ -27,7 +27,6 @@ let comando = argv._[0];
 
 let base = argv.base;
 let limite = argv.limite;
-git status
 switch (comando) {
     case 'listar':
         multiplicar.listarTabla(base, limite)
